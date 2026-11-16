@@ -24,7 +24,7 @@ namespace Zegar
             OdswiezCzas();
 
             czasomierz = new DispatcherTimer();
-            czasomierz.Interval = TimeSpan.FromSeconds(1);
+            czasomierz.Interval = TimeSpan.FromSeconds(30);
             czasomierz.Tick += Czasomierz_Tykniecie;
             czasomierz.Start();
         }
@@ -38,7 +38,7 @@ namespace Zegar
         {
             DateTime teraz = DateTime.Now;
             
-            TekstGodzina.Text = teraz.ToString("HH:mm:ss");
+            TekstGodzina.Text = teraz.ToString("HH:mm");
             TekstData.Text = teraz.ToString("dddd d MMMM yyyy", Polska);
         }
     }
