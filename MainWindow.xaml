@@ -7,6 +7,23 @@
         mc:Ignorable="d"
         Title="Zegar" Height="450" Width="800">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <TextBlock x:Name="TimeTextBlock" 
+                   Text="00:00:00"
+                   FontSize="24"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"
+                   Grid.Row="0"/>
 
+        <TextBlock x:Name="DateTextBlock" 
+                   Text="01/01/2000"
+                   FontSize="18"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"
+                   Grid.Row="1"/>
     </Grid>
 </Window>
