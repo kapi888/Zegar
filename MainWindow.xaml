@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Zegar"
         mc:Ignorable="d"
-        Title="Zegar" Height="450" Width="800">
+        Title="Zegar" Height="450" Width="800"
+        Background="Red">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -15,13 +16,15 @@
         <TextBlock x:Name="TekstGodzina" 
                    Text="00:00:00"
                    FontSize="24"
+                   Foreground="Blue"
                    HorizontalAlignment="Center"
                    VerticalAlignment="Center"
                    Grid.Row="0"/>
 
         <TextBlock x:Name="TekstData" 
                    Text="01/01/2000"
-                   FontSize="18"
+                   FontSize="24"
+                   Foreground="Blue"
                    HorizontalAlignment="Center"
                    VerticalAlignment="Center"
                    Grid.Row="1"/>
