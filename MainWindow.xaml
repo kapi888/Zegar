@@ -29,8 +29,8 @@
         </StackPanel>
 
         <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
-            <Button Content="Przycisk 1" Width="100" Margin="5"/>
-            <Button Content="Przycisk 2" Width="100" Margin="5"/>
+            <Button Content="Pogoda Warszawa" Width="100" Margin="5"/>
+            <Button Content="Pogoda Gdansk" Width="100" Margin="5"/>
         </StackPanel>
 
         <TextBlock x:Name="TekstWynik" 
