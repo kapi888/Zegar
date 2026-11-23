@@ -37,7 +37,7 @@ namespace Zegar
         private void OdswiezCzas()
         {
             DateTime teraz = DateTime.Now;
-            
+
             TekstGodzina.Text = teraz.ToString("HH:mm");
             TekstData.Text = teraz.ToString("dddd d MMMM yyyy", Polska);
         }
